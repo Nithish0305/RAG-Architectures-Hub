@@ -1,0 +1,79 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Vector Database
+chroma_db/
+*.db
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.pdb
+.ipynb_checkpoints/
+# n8n specific
+# If you ever use a local n8n setup, ignore the binary data/logs
+.n8n/
+n8n-debug.log
+
+# Jupyter Notebook Extras
+# This ignores the hidden folder where Jupyter saves "autosave" versions
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# General Web
+# In case you test the HTML locally and your IDE creates a config
+.env.local
